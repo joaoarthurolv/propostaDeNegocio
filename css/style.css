@@ -24,7 +24,7 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 3em;
-    padding: 2em;
+    padding-top:5em;
     padding-bottom: 0.1em;
 }
 
@@ -57,7 +57,7 @@ body{
 #orcamento_id{
     background-image: url("https://st4.depositphotos.com/5934840/20678/v/600/depositphotos_206788120-stock-video-money-pattern-background-hd-animation.jpg");
     background-repeat: repeat;
-    padding: 1em;
+    padding-top: 6em;
     padding-bottom: 0em;
 }
 
