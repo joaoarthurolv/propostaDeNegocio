@@ -1,9 +1,12 @@
 body{
     font-family: 'Thasadith', sans-serif;
+    background: #242424;
 }
 
 #menu {
     background-color: #242424;
+      padding: 10px 60px;
+
 }
 
 .nav-link {
@@ -59,8 +62,9 @@ body{
 }
 
 
-#funcionalidades_id{
-
+#tecnologias_id{
+  background-image: url("https://images.pexels.com/photos/1020317/pexels-photo-1020317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: repeat;
 }
 
 #equipe_id{
@@ -155,3 +159,13 @@ html {
 #myBtn:hover {
   background-color: #555;
 }
+
+    .tecn{
+        text-align: center;
+    }
+
+    .tecn img{
+        max-width: 100%;
+        background: #201E1F;
+        padding: 10px;
+    }

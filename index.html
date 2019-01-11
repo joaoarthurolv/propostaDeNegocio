@@ -16,7 +16,7 @@
   <body>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <div class="container-fluid">
-        <nav id="menu" class="navbar navbar-expand-lg navbar-light ">
+        <nav id="menu" class="navbar  fixed-top navbar-expand-lg navbar-light ">
                 <a class="nav-link" href="#">Home</a>
                 <a class="nav-link" href="#orcamento_id">Orçamento</a>
                 <a class="nav-link" href="#tecnologias_id">Tecnologias Utilizadas</a>
@@ -33,8 +33,8 @@
             <h1 class="orcamento-titulo">Orçamento</h1>
                 <p class="orcamento-texto">Os preços foram calculados por funcionalidade.<br> Quanto mais difícil de implementar uma funcionalidade, mais caro será ela.</p>
           </div>
-                <div class="card-deck mb-3 text-center">
-                  <div class="card mb-4 shadow-sm">
+                <div class="card-deck mb-3  text-center" style="margin: 20px;">
+                  <div class="card mb-4 text-white bg-dark shadow-sm">
                     <div class="card-header">
                       <h4 class="my-0 font-weight-normal">Aplicativo</h4>
                     </div>
@@ -50,7 +50,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="card mb-4 shadow-sm">
+                  <div class="card mb-4 text-white bg-dark shadow-sm">
                     <div class="card-header">
                       <h4 class="my-0 font-weight-normal">Site</h4>
                     </div>
@@ -68,11 +68,57 @@
                   </div>
                 </div> 
         </div>
+  <div id = "tecnologias_id">
+    <h1 class="proposta">Tecnologias Utilizadas</h1>
+    <div class="container">
+      <p class="textinho">Tecnologias utilizadas além do básico HTML, CSS, JavaScript.</p>
+      <div class="row tecn">
+        <div class="col-lg-4">
+          <img class="" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Generic placeholder image" width="auto" height="140">
+          <h2>AngularJS</h2>
+          <p>Angular é uma plataforma e framework para construção da interface de aplicações usando HTML, CSS e, principalmente, JavaScript, criada pelos desenvolvedores da Google.</p>
+          <p><a class="btn btn-dark" href="https://angular.io/" role="button">Sobre »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="" src="https://avatars1.githubusercontent.com/u/5658226?s=200&v=4" alt="Generic placeholder image" width="auto" height="140">
+          <h2>Express</h2>
+          <p>O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.</p>
+          <p><a class="btn btn-dark" href="#" role="button">Sobre »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="" src="https://nodejs.org/static/images/logo.svg" alt="Generic placeholder image" width="auto" height="140">
+          <h2>Node.js</h2>
+          <p>Node.js é um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores.</p>
+          <p><a class="btn btn-dark" href="#" role="button">Sobre »</a></p>
+        </div><!-- /.col-lg-4 -->
 
-        <div id = "tecnologias_id">
-          <h1 class="proposta">Tecnologias Utilizadas</h1>
 
+        <div class="row tecn">
+          <div class="col-lg-4">
+            <img class="" src="https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png" alt="Generic placeholder image" width="auto" height="140">
+            <h2>MongoDB</h2>
+            <p>MongoDB é um banco de dados de código aberto, gratuito, de alta performance, sem esquemas e orientado à documentos, lançado em fevereiro de 2009 pela empresa 10gen. </p>
+            <p><a class="btn btn-dark" href="https://angular.io/" role="button">Sobre »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="" src="http://www.cachina.com.br/wp-content/uploads/2015/05/ionic-logo-268x300.png" alt="Generic placeholder image" width="auto" height="140">
+            <h2>Ionic 2</h2>
+            <p>Ionic é um framework para desenvolvimento de aplicações para dispositivos móveis que visa o desenvolvimento de apps híbridas e de rápido e fácil desenvolvimento.</p>
+            <p><a class="btn btn-dark" href="#" role="button">Sobre »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="" src="https://leafletjs.com/docs/images/logo.png" alt="Generic placeholder image" width="auto" height="140">
+            <h2>Leaflet Maps</h2>
+            <p>Leaflet é uma biblioteca open-source na linguagem JavaScript para mapas interativos. Funciona com eficiência na maioria das plataformas móveis e desktop.</p>
+            <p><a class="btn btn-dark" href="#" role="button">Sobre »</a></p>
+          </div><!-- /.col-lg-4 -->
         </div>
+      </div>   
+    </div>
+
+  </div>
+
+  <p></p>
 
         <div id = "equipe_id">
           <h1 class="orcamento-titulo">Equipe</h1>
@@ -139,7 +185,7 @@
               </div>
         </div>
 
-
+<p></p>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
