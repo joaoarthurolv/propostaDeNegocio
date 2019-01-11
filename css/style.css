@@ -50,21 +50,87 @@ body{
     text-align: center;
     font-size: 1.4em;
     padding: 0.1em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
 
 #orcamento_id{
-
+    background-image: url("https://st4.depositphotos.com/5934840/20678/v/600/depositphotos_206788120-stock-video-money-pattern-background-hd-animation.jpg");
+    background-repeat: repeat;
 }
+
 
 #funcionalidades_id{
 
 }
 
 #equipe_id{
-
+    background-image: url("http://www.zingerbug.com/Backgrounds/background_images/yellow_mini_bricks_seamless_pattern.gif");
+    background-repeat: repeat;
+    padding: 1em;
 }
 
 #tecnologias_id{
-    
+    padding: 1em;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.nome_programadores{
+    font-weight: bold;
+    text-align: center;
+    padding: 0.2em;
 }
