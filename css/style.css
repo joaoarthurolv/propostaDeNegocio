@@ -1,0 +1,55 @@
+body{
+    font-family: 'Thasadith', sans-serif;
+}
+
+#menu {
+    background-color: #242424;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.nav-link:hover{
+    color: #d4a903;
+    transition: 0.5s;
+
+}
+
+.proposta{
+    text-align: center;
+    font-size: 3em;
+    padding: 2em;
+    padding-bottom: 0.2em;
+}
+
+.textinho{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 0.1em;
+    padding-bottom: 1em;
+}
+
+.home-foto{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfakmTg13oOBaBL3GCv3_aCsxNcT3dp2cirzoDZYvNDnNdruu4");
+    background-repeat: repeat;
+}
+
+.orcamento-titulo{
+    text-align: center;
+    font-size: 3em;
+    padding: 2em;
+    padding-bottom: 0.2em;
+}
+
+.orcamento-texto{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 0.1em;
+    padding-bottom: 1em;
+}
+
+.card{
+    display: inline block;
+}
