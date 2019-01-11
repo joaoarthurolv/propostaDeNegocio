@@ -25,14 +25,14 @@ body{
     font-weight: bold;
     font-size: 3em;
     padding: 2em;
-    padding-bottom: 0.2em;
+    padding-bottom: 0.1em;
 }
 
 .textinho{
     text-align: center;
     font-size: 1.4em;
-    padding: 0.1em;
-    padding-bottom: 1em;
+    padding: 3em;
+    padding-bottom: 5em;
 }
 
 .home-foto{
@@ -44,9 +44,7 @@ body{
     text-align: center;
     font-size: 3em;
     font-weight: bold;
-    padding: 2em;
-    padding-top: 0.5em;
-    padding-bottom: 0.2em;
+    padding: 1em;
 }
 
 .orcamento-texto{
@@ -59,6 +57,8 @@ body{
 #orcamento_id{
     background-image: url("https://st4.depositphotos.com/5934840/20678/v/600/depositphotos_206788120-stock-video-money-pattern-background-hd-animation.jpg");
     background-repeat: repeat;
+    padding: 1em;
+    padding-bottom: 0em;
 }
 
 
@@ -149,7 +149,7 @@ html {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #febc10;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -169,3 +169,10 @@ html {
         background: #201E1F;
         padding: 10px;
     }
+
+.rodape {
+    color: azure;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0.2em;
+}
