@@ -42,6 +42,7 @@ body{
     font-size: 3em;
     font-weight: bold;
     padding: 2em;
+    padding-top: 0.5em;
     padding-bottom: 0.2em;
 }
 
@@ -50,4 +51,20 @@ body{
     font-size: 1.4em;
     padding: 0.1em;
     padding-bottom: 1em;
+}
+
+#orcamento_id{
+
+}
+
+#funcionalidades_id{
+
+}
+
+#equipe_id{
+
+}
+
+#tecnologias_id{
+    
 }
